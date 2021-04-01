@@ -1,0 +1,234 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header-container {
+    background-color: #FAAE03;
+    margin-top: 50px; 
+    height: 500px;
+    width: 1800px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: lighter;
+
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: lighter;   
+}
+
+.title {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.search-box-header {
+    padding-left: 40px;
+    color: white;
+
+}
+
+.search-input {
+    margin-left: 40px;
+    height: 75px;
+    width: 690px;
+    border-radius: 5px;
+    border: none;
+    font-size: 40px;
+    color: #656565;
+    padding-left: 20px;
+};
+
+.search-container {
+    display: flex;
+}
+
+.search-button {
+    height: 70px;
+    width: 105px;
+    background-color: #FAAE03;
+    border: solid;
+    border-width: 7px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 3px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    color: #faae03;
+    background-color: white;
+    color: #faae03;
+}
+
+.header-icon {
+    padding-left: 530px;
+    padding-top: 85px;
+}
+
+.error-message {
+    padding-left: 40px;
+    padding-top: 20px;
+    color: red;
+    font-size: 25px;
+}
+
+.weather-report-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 800px;
+    height: 800px;
+    border: solid;
+    border-width: 10px;
+    border-color: #faa303;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 75px;
+    color: #656565;
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.city-header {
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.weather-icon {
+    padding-top: 0px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.temp-data {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    #header-container {
+        width: 200px;   
+        display: flex;
+        flex-direction: column;
+        height: 200px
+    }
+    .search-box-header {
+        padding-left: 20px;
+        color: white;
+    }
+    .title {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+        color: white;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    .search-input {
+        margin-left: 20px;
+        height: 20px;
+        width: 134px;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+        color: #656565;
+        padding-left: 5px;
+    }
+    .search-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .search-button {
+        height: 24px;
+        width: 35px;
+        background-color: #FAAE03;
+        border: solid;
+        border-width: 1.75px;
+        border-color: white;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    .header-icon {
+        display: none;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    .error-message {
+        padding-left: 40px;
+        padding-top: 20px;
+        color: red;
+        font-size: 12.5px;
+    }
+    .weather-report-container {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 200px;
+        height: 200px;
+        border: solid;
+        border-width: 5px;
+        border-color: #faa303;
+        border-radius: 30px;
+        background-color: white;
+        margin-top: 35px;
+        color: #656565;
+    }
+    .city-header {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }  
+    .weather-icon {
+        padding-top: 0px;
+        height: 75px;
+        width: 75px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .temp-data {
+        margin-bottom: 0px;
+        margin-top: 2.5px;
+    }
+
+    
+}
