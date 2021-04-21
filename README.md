@@ -7,3 +7,4 @@ This project taught me:
 - async/await
 - Fetch
 - API usage
+- Media Queries (mostly because I wanted to show this off to my mom and I knew she was only going to look at it on her phone)
