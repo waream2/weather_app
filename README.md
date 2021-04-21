@@ -8,3 +8,5 @@ This project taught me:
 - Fetch
 - API usage
 - Media Queries (mostly because I wanted to show this off to my mom and I knew she was only going to look at it on her phone)
+
+https://waream2.github.io/weather_app/
